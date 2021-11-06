@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using System;
 
 namespace Specflow_task1.SpecDefinition
@@ -12,7 +13,7 @@ namespace Specflow_task1.SpecDefinition
         {
             System.Diagnostics.Debug.WriteLine("test starts");
             //Defining the browser
-            //driver = new ChromeDriver();
+            driver = new ChromeDriver();
             TurnOnWait();
 
             //Maximise the window
