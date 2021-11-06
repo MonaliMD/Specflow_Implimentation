@@ -1,7 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using Specflow_task1.Pages;
-using System;
 using TechTalk.SpecFlow;
 
 namespace Specflow_task1.SpecDefinition
@@ -14,8 +12,9 @@ namespace Specflow_task1.SpecDefinition
         {
             //open chrome browser
             IWebDriver driver = new ChromeDriver();
-            SignIn signInPage = new SignIn();
-            signInPage.signInActions(driver);
+            //SignIn signInPage = new SignIn();
+            //signInPage.signInActions(driver);
+            SignIn.SigninStep();
         }
     }
 }

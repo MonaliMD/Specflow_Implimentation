@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.Mapping" Version="2.2.2" />
+    <PackageReference Include="ExcelDataReaderHelper" Version="1.0.3" />
+    <PackageReference Include="ExtentReports" Version="2.41.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />
